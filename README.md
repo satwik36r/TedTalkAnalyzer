@@ -29,6 +29,7 @@ Libraries Used
 Collection and Preprocessing of Data
 
 The dataset regarding the TED Talk was fetched from CSV file to data frames with help of Pandas library. The dataset contained Published Date and Filmed Data of TED Talks on special format. Available columns from the data were
+
 comments : The number of first level comments made on the talk
 description : A blurb of what the talk is about
 duration : The duration of the talk in seconds
@@ -46,4 +47,5 @@ tags : The themes associated with the talk
 title : The title of the talk
 url : The URL of the talk
 views : The number of views on the talk
+
 To make the mining and analysis of data, the dataset was preprocessed, and it was converted to DD-MM-YY format. For any video to be popular, one of the basic indicators is the number of views it has achieved. We sorted the dataset in decreasing order of the views of TED Talk. Once this was done, we went through dataset about selecting all the parameters of interest that could potentially be important for deriving crucial information from the dataset.
