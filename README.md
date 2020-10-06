@@ -16,6 +16,7 @@ Libraries Used
 •	Matplotlib (Graphs Visualization)
 •	tkinter (GUI)
 •	Twitter (Twitter Data)
+
 Collection and Preprocessing of Data
 The dataset regarding the TED Talk was fetched from CSV file to data frames with help of Pandas library. The dataset contained Published Date and Filmed Data of TED Talks on special format. Available columns from the data were
 comments : The number of first level comments made on the talk
