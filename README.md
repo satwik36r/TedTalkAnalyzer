@@ -1,6 +1,7 @@
 # TedTalkAnalyzer
 Predicting trends derived by analysis of 3000 TED Talks
 Approach
+
 •	Collecting, preprocessing and loading TED Talks dataset.
 •	Analyzing dataset for speaker information of a Talk.
 •	Mining data for fetching most popular tags in recent years.
@@ -8,16 +9,25 @@ Approach
 •	Creating K-Nearest Neighbor Algorithm based on the dataset to find is the TED Talk will give positive feedback or negative feedback. 
 •	Using Twitter APIs to fetch trending tweets related to TED Talks.
 •	Recommending the TED Talks based on KNN algorithm created and pairing it with user inputs.
+
 Libraries Used
 •	Pandas (Data frame analysis and manipulation)
+
 •	Seaborn (Statistical data visualization)
+
 •	Sklearn (Machine learning)
+
 •	Numpy (Preprocessing)
+
 •	Matplotlib (Graphs Visualization)
+
 •	tkinter (GUI)
+
+
 •	Twitter (Twitter Data)
 
 Collection and Preprocessing of Data
+
 The dataset regarding the TED Talk was fetched from CSV file to data frames with help of Pandas library. The dataset contained Published Date and Filmed Data of TED Talks on special format. Available columns from the data were
 comments : The number of first level comments made on the talk
 description : A blurb of what the talk is about
